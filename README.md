@@ -9,8 +9,9 @@ The table below displays the analysis for a dozen green-energy stocks (companies
 Ticker name.
 Total daily volume for a given year.
 Percentage of a yearly return.
-![Vba_challenge_2017](https://user-images.githubusercontent.com/99519095/160819513-45e538c7-15a7-4143-8e87-1b9cf344aff8.png)
-![Vba_challenge_2018](https://user-images.githubusercontent.com/99519095/160819532-b43acc89-7759-4105-a1b8-8d82fecca705.png)
+![Vba_challenge_2017_chart](https://user-images.githubusercontent.com/99519095/160822025-bab1aa05-4ce3-4a9b-bcbe-d4c85fe92dae.png)
+![Vba_challenge_2018_chart](https://user-images.githubusercontent.com/99519095/160822030-8f9f0014-1ba6-4a8b-bc5f-c68259a296fb.png)
+
 ### Yearly return (%)
 Green-energy stocks in 2017 had a high ratio of positive yearly returns (only one green-energy stock (TERP)) had a negative yearly return. Analysis from 2018 showed a completely different picture. The majority of stocks had negative returns. The drop was significant. The DQ stock had almost 200% yearly return in 2017, but in 2018 the stock dropped and finished the year with negative 63%.
 These results indicate a risky investment. The stock trend is not stable and might not be worth investing all the money in DQ stocks.
@@ -19,6 +20,12 @@ In general, a high volume of daily trading is an indicator of a stable stock, wi
 DQ stocks in 2017 had low volume and high yearly return (at that time this might be an indicator of a company on a rise). However, the situation of DQ stocks in 2018 has changed completely. Stocks closed its year with negative 63%. Trading volume was higher, yet didn’t result in a positive outcome. The results of this analysis confirmed a risky investment in DQ stocks.
 ## Summary on Refactoring
 ### General thoughts on Refactoring
-The major advantage of refactoring code is making the code more efficient. The major disadvantage of refactoring code is that you are taking code that already works and potential making it unusable if you can refactor it correctly. For that reason it is always smart to save your original code just incase you end up not being able to refactor it.
+The major advantage of refactoring code is making the code more efficient.It run faster then regulart codes calculation The major disadvantage of refactoring code is that you are taking code that already works and potential making it unusable if you can refactor it correctly. For that reason it is always smart to save your original code just incase you end up not being able to refactor it.
+Hear are images comparision of All Stock Analysis with All Stock with refactor function
+![Vba_2017_allstock](https://user-images.githubusercontent.com/99519095/160823969-a57adcea-ad46-416c-a9a6-f7b7f46527d9.png)
+![Vba_2018_allstock](https://user-images.githubusercontent.com/99519095/160823973-c182bd14-0d22-4544-89f7-57688ba29661.png)
+![Vba_challenge_2017](https://user-images.githubusercontent.com/99519095/160823976-969a8f78-df78-43b3-a22a-cbd6ef652bfe.png)
+![Vba_challenge_2018](https://user-images.githubusercontent.com/99519095/160823978-53b5a37d-1941-44d1-b297-2d25c17c48d4.png)
+
 ### Refactoring in VBA Script
 The major advantage of refactoring code in VBA script is that you can use as much as of the original code as you want to and can put your new code side by side with your old code using different modules. The major disadvantage of refactoring code in VBA script is that if you do not have a strong understanding of the syntax, you will struggle to refactor your code as the syntax matters so much more when trying to make your code more efficient.
